@@ -1,0 +1,71 @@
+
+/*The image specified for the body is used to apply the gradient background to the entire page*/
+body {
+  background:url(../images/red/body_bg.png) repeat-x #b89b97;
+}
+#leftPane {
+  background-color:#f2e9e9;
+}
+/*override claro background and other props*/
+#toolbarContainer .dijitToolbar {
+  background:url(../images/red/toolbar_bg.png) repeat-x #a26a67;
+}
+/*Measure toggle button*/
+.claro .dijitToolbar .dijitButtonNode:hover {
+  background:url(../images/red/sidebar_header_active_bg.png) repeat-x #eccece;
+}
+.claro .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode {
+   background:url(../images/red/sidebar_header_active_bg.png) repeat-x #eccece;
+}
+.dojoxFloatingPaneTitle{
+  background:url(../images/red/toolbar_bg.png) repeat-x #a26a67;
+}
+
+.esriPopup .titlePane{
+  background-color:#854c44;
+  border-style:none;
+}
+
+.esriPopup .titleButton,
+.esriPopup .pointer,
+.esriPopup .outerPointer,
+.esriPopup .esriViewPopup .gallery .mediaHandle,
+.esriPopup .esriViewPopup .gallery .mediaIcon{
+  background: url(../images/red/popup.png) no-repeat scroll 0 0 transparent;
+}
+
+/*Attribute Inspector button styling (delete buttons)*/
+.esriAttributeInspector div.atiButtons span.dijit span.dijitReset{
+  background:url(../images/red/toolbar_bg.png) repeat #a26a67;
+  color:#fff;
+  border: none;
+}
+.esriAttributeInspector div.atiButtons span.dijit span.dijitReset:hover{
+  background:url(../images/red/sidebar_header_active_bg.png) repeat-x #eccece;
+  color:#000;
+}
+
+/*slider background*/
+.esriSimpleSliderVertical .esriSimpleSliderIncrementButton ,.esriSimpleSliderVertical .esriSimpleSliderDecrementButton  {
+  background:url(../images/red/toolbar_bg.png) repeat-x #a26a67;
+  border:solid 1px #a26a67;
+}
+
+ /*Identity Manager Dialog*/
+.claro .dijitDialogTitleBar {
+  background:url(../images/red/toolbar_bg.png) repeat-x #545454;
+  color:#fff;
+  border: solid 1px #a26a67;
+}
+.claro .dijitDialog {
+    border: 1px solid #808080;
+}
+
+.claro .dijitDialogPaneActionBar .dijitButtonNode{
+  background-image:none;
+  border: solid 1px #a26a67;
+  background:url(../images/red/sidebar_header_active_bg.png) repeat-x #eccece;
+}
+.esriBookmarkItem:hover{
+  background-color:#eccece;
+}
