@@ -2,6 +2,8 @@
 ##Introducción
 Este repositorio contiene una versión de la plantilla de aplicación 'basicviewer' de ArcGIS Online personalizada para un cliente (demo).
 
+[ver online](http://jabadia.github.io/basicviewer/?appid=190fdd4f219a45678cf94212930a9962)
+
 La personalización incluye:
 
 * logotipo de la organización
@@ -9,7 +11,7 @@ La personalización incluye:
 * enlaces personalizados (esq. superior derecha)
 * funcionalidad personalizada (botón idescat), que permite consultar un servicio REST del Departamento de Estadística de la Generalitat de Catalunya para obtener valores estadísticos sobre los municipios catalanes.
 
-![](screenshots\pantallazo_gencat.png)
+![](screenshots/pantallazo_gencat.png)
 
 La funcionalidad básica de la plantilla incluye:
 
@@ -25,7 +27,7 @@ La funcionalidad básica de la plantilla incluye:
 
 Este código es un ejemplo de plantilla de aplicaciones personalizada a medida de una organización
 
-##Instalación
+##Instalación y Configuración
 _POR HACER_
 
 ##Más información
