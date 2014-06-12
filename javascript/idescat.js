@@ -22,7 +22,7 @@ dojo.declare("myModules.idescat", null,
       });
     }
 
-    this.municipios = new esri.layers.FeatureLayer("http://services.arcgis.com/qkUvCrgGj4CxYfQu/arcgis/rest/services/Municipios/FeatureServer/0",
+    this.municipios = new esri.layers.FeatureLayer("http://services2.arcgis.com/CQWCKwrSm5dkM28A/arcgis/rest/services/Municipios_de_Catalu%C3%B1a/FeatureServer/0",
     {
     //mode: "MODE_SELECTION",
       editable: false,
@@ -78,6 +78,7 @@ dojo.declare("myModules.idescat", null,
               i: "f171,f36,f42,f262,f3,f91,f92,f95",
               tipus: "mun"
             },
+            callbackParamName: "callback",
             handleAs: "json"
           });
 
